@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko:600,700|Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC&display=swap');
+@font-face{
+    font-family: "Van Helsing";
+    src: url(../Css/Van\ Helsing.ttf)
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    float: left;
+    margin:0px;
+    padding: 0px;
+    height: 100%;
+    background-image: url("../Imagens/Login_back.jpeg");
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.397);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Div_Cadastro{
+    position: relative;
+    width: 460px;
+    height: 926px;
+    margin-left: 440px;
+    border-radius: 19%;
+    background-color: rgba(162, 167, 173, 0.23)
+    
+}
+
+.Icone{
+    float: left;
+    position: absolute;
+    width: 291px;
+    height: 97px;
+    margin-left: 89px;
+    background: url(../Imagens/dishonored_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cadastro_itens{
+    position: absolute;
+    width: 311px;
+    height: 546px;
+    margin-top: 86px;
+    margin-left: 79px;
+    text-align: center;
+    border: 4px;
+    border-bottom-style: dotted;
+    border-color: crimson;
+    
+}
+.cadastro_itens p{
+    font-family: "Van Helsing";
+    font-size: 28px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+.cadastro_itens h3{
+    font-family: "Van Helsing";
+    font-size: 41px;
+    font-weight: 300;
+    margin-top: 16px;
+    margin-bottom: 18px;
+    margin-left: 76px;
+    width: 150px;
+    border: 7px;
+    border-bottom-style: double;
+    border-radius: 21px;
+}
+/* Inputs cadastros */
+
+.N_U{
+    width: 196px;
+    height: 30px;
+    background-color: #ed143d00;
+    border-style: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Van Helsing";
+    color: #79b0b4;
+    outline: none;
+}
+.email{
+    width: 284px;
+    height: 30px;
+    background-color: #ed143d00;
+    border-style: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Van Helsing";
+    color: #79b0b4;
+    outline: none;
+}
+.senha_1{
+    width: 196px;
+    height: 30px;
+    background-color: #ed143d00;
+    border-style: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Van Helsing";
+    color: #79b0b4;
+    outline: none;
+}
+.senha_2{
+    width: 196px;
+    height: 30px;
+    background-color: #ed143d00;
+    border-style: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Van Helsing";
+    color: #79b0b4;
+    outline: none;
+}
+.data{
+    width: 196px;
+    height: 30px;
+    background-color: #ed143d00;
+    border-style: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Van Helsing";
+    color: #79b0b4;
+    outline: none;
+}
+
+/* button cadastro */
+.Bu_C{
+    width: 226px;
+    height: 55px;
+    padding-top: 7px;
+    margin-top: 10px;
+    background-color: #f0f8ff00;
+    border: 2px;
+    border-bottom-style: solid;
+    font-size: 51px;
+    font-family: "Van Helsing";
+    text-align: center;
+    outline: none;
+}
+.Bu_C:hover{
+    background-color: rgba(0, 0, 0, 0.616);
+    border-color: #79b0b4;
+    border:3px;
+    border-bottom-style: solid;
+    border-radius: 16px;
+    transition: 500ms;
+    color: #79b0b4;
+}
+/* #7566b6 */
+/* Login */
+
+.login{
+    position: absolute;
+    width: 232px;
+    height: 292px;
+    margin-left: 120px;
+    margin-top: 633px;
+    text-align: center;
+
+}
+.login p{
+    font-family: "Van Helsing";
+    font-size: 28px;
+    outline: none
+}
+.login h3{
+    font-family: "Van Helsing";
+    font-size: 41px;
+    font-weight: 300;
+    margin-top: 16px;
+    margin-bottom: 9px;
+    margin-left: 60px;
+    width: 117px;
+    border: 7px;
+    border-bottom-style: double;
+    border-radius: 21px;
+    outline: none;
+}
+.pNL{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 18px;
+    padding-top: 5px;
+    height: 32px;
+    width: 195px;   
+    outline: none
+}
+.pSL{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 68px;
+    padding-top: 5px;
+    height: 25px;
+    width: 97px;
+    outline: none;
+}
+
+/* Inputs Login */
+
+.N_U_L{
+    width: 196px;
+    height: 30px;
+    background-color: #ed143d00;
+    border-style: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Van Helsing";
+    color: #79b0b4;
+    outline: none;
+}
+
+.S_L{
+    width: 196px;
+    height: 30px;
+    background-color: #ed143d00;
+    border-style: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Van Helsing";
+    color: #79b0b4;
+    outline: none
+}
+
+/* Button Login */
+
+.Bu_L{
+    width: 151px;
+    height: 50px;
+    padding-top: 7px;
+    margin-top: 10px;
+    background-color: #f0f8ff00;
+    border: 2px;
+    border-bottom-style: solid;
+    font-size: 51px;
+    font-family: "Van Helsing";
+    text-align: center;
+    outline: none;
+}
+.Bu_L:hover, .Bu_L:focus{
+    background-color: rgba(0, 0, 0, 0.616);
+    border-color: #79b0b4;
+    border:3px;
+    border-bottom-style: solid;
+    border-radius: 16px;
+    transition: 500ms;
+    color: #79b0b4;
+}

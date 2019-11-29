@@ -1,78 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Página com exemplo de Autenticação (Login)</title>
-
+    <link rel="stylesheet" href="../Css/Login_style.css">
+    <title>Login/Cadastro</title>
 </head>
-
 <body>
+    <div class="Div_Cadastro">
+        <a href="index.html" class="Icone"></a>
+     
+       <form  id="form_cadastro">
+         <div class="cadastro_itens">
+        <label for="nome_user"><h3>Cadastro</h3></label>
 
-    <form id="form_login" method="post" onsubmit="return entrar()">
-        Usuário: <input type="text" name="login">
-        <br>
-        Senha: <input type="password" name="senha">
-        <br>
-        <button id="btn_entrar">Entrar</button>
-    </form>
-    
-    <img src="aguarde.gif" id="img_aguarde" style="display: none;">
-    
-    <div id="div_erro" style="background-color: sandybrown; color: maroon; display: none;">
-        
+
+        <label><p>Nome de Usuário</p>
+        <input type="text" name="nome_u" id="nome_user" class="N_U"></label>
+
+        <label><p>Email</p>
+        <input type="email" name="email_u" id="Email" class="email" size="20" maxlength="50"></label>
+         
+        <label><p>Senha</p>
+        <input type="password" name="senha_u" id="Senha" class="senha_1"></label>
+
+        <label><p>Confirmar senha</p>
+        <input type="password" id="C_senha" class="senha_2"></label>
+
+        <label><p>Data de nascimento</p>
+        <input type="date" name="data_n_u" id="data_nasc" class="data"></label>
+           
+        <button onclick="cadastrar()" class="Bu_C">Cadastrar</button>
+
+      </div>
+    </form> 
+      
+      <div class="login">
+       <form id="form_login" method="post">
+        <label for="L_nome_user">
+          <h3>Login</h3></label>
+
+        <label><p class="pNL">Nome de Usuário</p>
+        <input type="text" id="L_nome_user" class="N_U_L" name="login"></label>
+
+        <label><p class="pSL">Senha</p>
+        <input type="password" id="L_senha" class="S_L" name="senha"></label>
+            
+        <button onclick="entrar()" class="Bu_L">Entrar</button>
+       </form>
+    </div>
     </div>
 
+
+   
 </body>
-
 </html>
-<script>
-
-    function entrar() {
-        aguardar();
-        var formulario = new URLSearchParams(new FormData(form_login));
-        fetch("/usuarios/autenticar", {
-            method: "POST",
-            body: formulario
-        }).then(resposta => {
-            
-            if (resposta.ok) {
-
-                resposta.json().then(json => {
-
-                    sessionStorage.login_usuario_meuapp = json.login;
-                    sessionStorage.nome_usuario_meuapp = json.nome;
-                    
-                    window.location.href = 'tempo-real.html';
-                });
-
-            } else {
-
-                console.log('Erro de login!');
-
-                response.text().then(texto => {
-                    console.error(texto);
-                    finalizar_aguardar(texto);
-                });
-            }
-        });
-
-        return false;
-    }
-
-    function aguardar() {
-        btn_entrar.disabled = true;
-        img_aguarde.style.display = 'block';
-        div_erro.style.display = 'none';
-    }
-
-    function finalizar_aguardar(resposta) {
-        btn_entrar.disabled = false;
-        img_aguarde.style.display= 'none';
-        div_erro.style.display = 'block';
-        div_erro.innerHTML = resposta;
-    }
-
-</script>
+<script src="script/login.js"></script>
+<script src="script/cadastro.js"></script>

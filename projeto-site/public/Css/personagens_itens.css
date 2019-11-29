@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko:600,700|Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC&display=swap');
+@font-face{
+    font-family: "Van Helsing";
+    src: url(../Css/Van\ Helsing.ttf)
+}
+
+.containe{
+    position: relative;
+    display: flex;
+    width: 94%;
+    height: 553%;
+    background-color: #6e99c11f;
+    margin-top: 15vh;
+    margin-left: 3vw;
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.2), 0 3px 11px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.div_corvo_image{
+    position: absolute;
+    width: 289px;
+    height: 540px;
+    margin-left: 66vw;
+    margin-top: 3vh;
+    /* background-color: blue; */
+    border: 2px;
+    border-bottom-style: solid;
+    border-radius: 6px;
+    border-color: #8c9dde;
+
+}
+
+.div_corvo_image h3{
+    font-family: "Van Helsing";
+    font-size: 30px;
+    text-align: center;
+    height: 27px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 19px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    border: 2px;
+    border-bottom-style: solid;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: #8c9dde;
+    text-shadow: 1px 1px 4px black; 
+}
+
+.corvo_image{
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 488px;
+    margin-left: 33px;
+    background: url(../Imagens/Corvo_Attano_image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div_frase{
+    position: absolute;
+    width: 697px;
+    height: 72px;
+    margin-left: 23px;
+    margin-top: 15px;
+    padding-top: 26px;
+    padding-bottom: 30px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 2px;
+    border-bottom-style: solid;
+    border-color: #8c9dde;
+    /* background-color: blueviolet; */
+
+}
+
+.p_frase{
+    font-family: "Van Helsing";
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    color: #000000;
+    text-shadow: 2px 2px 4px #fbfbfb;
+}
+
+.h3_frase{
+    font-size: 17px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-family: "Carrois Gothic SC";
+    font-weight: bold;
+    background: -webkit-linear-gradient(gold, #ff8200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+/* Introdução */
+
+.intro{
+    position: absolute;
+    width: 620px;
+    height: 167px;
+    margin-top: 158px;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: brown; */
+}
+.p_intro{
+  font-family: "Carrois Gothic SC";
+  font-size: 16px;
+  margin-top: 7px;
+  padding-left: 9px;
+  padding-right: 9px;  
+  color: #e6e4e4;
+    text-shadow: 2px 2px 3px #5d609e;
+}
+
+/* Biografia */
+
+.div_bio{
+    position: absolute;
+    width: 581px;
+    height: 907px;
+    margin-top: 368px;
+    margin-left: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: crimson; */
+}
+.div_bio h3{
+    font-family: "Van Helsing";
+    text-align: center;
+    font-size: 43px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 2px;
+    border-bottom-style: solid;
+    color: #8c9dde;
+    text-shadow: 1px 1px 4px black;
+}
+.div_bio p{
+    font-family: "Carrois Gothic SC";
+    font-size: 16px;
+    color: #e6e4e4;
+    text-shadow: 2px 2px 3px #5d609e;
+}
+
+.div_corvo_jovem{
+    position: absolute;
+    width: 475px;
+    height: 389px;
+    margin-top: 700px;
+    margin-left: 705px;
+    /* background-color: blue; */
+}
+.div_corvo_jovem p{
+    font-family: "Carrois Gothic SC";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    width: 475px;
+    height: 20px;
+    margin-top: 366px;
+    color: #e6e4e4;
+    text-shadow: 2px 2px 3px #5d609e;
+}
+
+.img_corvo_jovem{
+    float: left;
+    position: relative;
+    width: 476.5px;
+    height: 365px;
+    background: url(../Imagens/corvo-jovem.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div_pers{
+    position: absolute;
+    width: 581px;
+    height: 238px;
+    margin-top: 1340px;
+    margin-left: 632px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: cadetblue; */
+}
+.div_pers h3{
+    font-family: "Van Helsing";
+    text-align: center;
+    font-size: 43px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 2px;
+    border-bottom-style: solid;
+    color: #8c9dde;
+    text-shadow: 1px 1px 4px black;
+}
+
+.div_pers p{
+    font-family: "Carrois Gothic SC";
+    font-size: 16px;
+    color: #e6e4e4;
+    text-shadow: 2px 2px 3px #5d609e;
+}
+
+.div_perso_img{
+    position: absolute;
+    width: 550px;
+    height: 350px;
+    margin-top: 1340px;
+    margin-left: 43px;
+    /* background-color: darkorange; */
+
+}
+
+.div_perso_img p{
+    font-family: "Carrois Gothic SC";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    width: 550px;
+    height: 20px;
+    margin-top: 318px;
+    color: #e6e4e4;
+    text-shadow: 2px 2px 3px #5d609e;
+}
+
+.perso_img{
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 310px;
+    background: url("../Imagens/CorvoSamuel_-_caos_basso_hondpitspub.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div_dishonored{
+    position: absolute;
+    width: 581px;
+    height: 907px;
+    margin-top: 1730px;
+    margin-left: 86px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: dimgray;  */
+}
+
+.div_dishonored h3{
+    font-family: "Van Helsing";
+    text-align: center;
+    font-size: 43px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 2px;
+    border-bottom-style: solid;
+    color: #8c9dde;
+    text-shadow: 1px 1px 4px black;
+}
+
+.div_dishonored p{
+    font-family: "Carrois Gothic SC";
+    font-size: 16px;
+    color: #e6e4e4;
+    text-shadow: 2px 2px 3px #5d609e;
+}
+
+.dishonored_img{
+    position: absolute;
+    float: left;
+    width: 520px;
+    height: 520px;
+    margin-top: 1802px;
+    margin-left: 728px;
+    background: url("../Imagens/Dishonored_Warriors_509600.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div_corvo_hab{
+    position: absolute;
+    width: 581px;
+    height: 907px;
+    margin-top: 2708px;
+    margin-left: 604px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: slateblue; */
+}
+
+.div_corvo_hab h3{
+    font-family: "Van Helsing";
+    text-align: center;
+    font-size: 43px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 2px;
+    border-bottom-style: solid;
+    color: #8c9dde;
+    text-shadow: 1px 1px 4px black;
+}
+
+.div_corvo_hab p{
+    font-family: "Carrois Gothic SC";
+    font-size: 16px;
+    color: #e6e4e4;
+    text-shadow: 2px 2px 3px #5d609e;
+}
+
+.div_abilli_img{
+    position: absolute;
+    width: 535px;
+    height: 848px;
+    margin-top: 2708px;
+    margin-left: 30px;
+    /* background-color: tomato; */
+}
+.div_abilli_img p{
+    font-family: "Carrois Gothic SC";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    width: 550px;
+    height: 20px;
+    margin-top: 818px;
+    color: #e6e4e4;
+    text-shadow: 2px 2px 3px #5d609e;
+}
+
+.abilli_img{
+    position: relative;
+    float: left;
+    width: 535px;
+    height: 807px;
+    
+    background: url("../Imagens/Corvo_attano_mask_render.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

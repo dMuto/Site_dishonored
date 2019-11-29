@@ -1,0 +1,24 @@
+Dia 18/11/2019 -
+
+Contexto do problema -
+
+   O redirecionamento dentro do dropdow não estava funcionando, estava usando <P>
+dentro dele, então não poderia usar 'href', botei um oneclick pra cha,ar a função, 
+porém ainda não funcionava. Depois de pesquisas e ajuda do Prof. Diego, descobrimos que o <P>
+estava dentro de um <A> com 'href' dentro, então sempre a puxava o href na função
+ele recarregava o href do <a>. Ao tirar o href a função funcionou.
+
+----------
+
+Função com argumento -
+
+Ela é uma função genêrica que puxa a função direto do onclick.
+
+Exemplo: 
+ <p onclick="teste('Corvo_atano.html')">Corvo Attano</p>
+
+function teste(url){ //- "Essa url serve para expecificar e dentro do () do onclick vai ter uma url"
+  window.location.href = url ; // - "aqui vai expecificar que a localização da pagina é a url que vai estar dentro 
+do ()"
+}
+ 

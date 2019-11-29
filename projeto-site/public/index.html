@@ -1,12 +1,64 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="PT">
 <head>
-  <title>Express</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Css/Inicio_style.css">
+    <link rel="stylesheet" href="../Css/body_inicio.css">
+    <title>Home</title>
 </head>
-
-<body>
-  HTML funcionando! te juro!
+<body class="body_inicio">
+<div class="div_menu">
+    <nav class="menu">
+     <a class="Icone" onclick="teste('index.html')"></a>
+       <ul class="menu_itens">            
+            <a class="personagens" >Personagens
+              <div class="dropdown">
+                <p onclick="teste('Corvo_atano.html')">Corvo Attano</p>              
+                <p onclick="teste('#')">Daud</p>
+                <p>The Outsider</p>
+                <p>Emily Kaldwin</p>
+                <P>Todos Personagens</P>
+               </div>
+            </a>  
+            <a class="h_e" href="">Habilidades
+                <div class="dropdown">
+                    <p>Naturais</p>
+                    <p>Sobrenaturais</p>
+                    <p>Equipamentos</p>
+                    <p>Tecnologias</p>
+                </div>
+            </a>
+            <a class="dunwall" href="">Dunwall</a>
+            <a class="inimigo" href="">Inimigos
+              <div class="dropdown">
+                <p>Alvos</p>
+                <p>Guangues</p>
+                <p>Assassinos</p>
+                <p>Guardas da Cidade</p>
+                <p>Todos os Inimigos</p>
+              </div>
+            </a>
+            <a class="local">Locais
+              <div class="dropdown">
+                  <p>Edifícios</p>
+                  <p>Empresas</p>
+                  <p>Distritos</p>
+                  <p>Nações</p>
+                  <p>Todos os Locais</p>
+              </div>
+            </a>
+            <div class="entrar"> 
+                    
+             <a class="login" href="Login.html">Login / Cadastrar</a>
+                    
+            </div> 
+         </ul>
+    </nav> 
+</div>
+             
+    
 </body>
-
 </html>
+<script src="../script/menu_function.js"></script>
