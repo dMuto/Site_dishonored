@@ -5,23 +5,6 @@
     src: url(../Css/Van\ Helsing.ttf)
 }
 
-/* body, html{
-    height: 100%;
-} */
-/* 
-body{
-    position: relative;
-    margin:0px;
-    padding: 0px;
-    height: 100%;
-    background-image: url("../Imagens/Back.jpg");
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.397);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
- 
 
 .div_menu{
     float: left;
@@ -49,6 +32,7 @@ body{
     background: url(../Imagens/dishonored_icon.png);
     background-repeat: no-repeat;
     background-size: contain;
+    cursor: pointer;
  }
 
 .personagens{
@@ -212,6 +196,7 @@ opacity: 1;
     display: none;
     position: absolute;
     color:  #0c102b;
+    margin-left: 22px;
     text-decoration: none;
     font-size: 25px;
     font-weight: 500;
@@ -224,7 +209,7 @@ opacity: 1;
     height: 55px;
     margin-top: 3px;
     margin-left: 190px;
-    background-color: crimson;
+    /* background-color: crimson; */
 }
 .div_perfil{
     position: absolute;
@@ -232,16 +217,17 @@ opacity: 1;
 }
 
 .nome_user{
-    
+    /* display: none; */
     position: absolute;
     color: #0c102b;
     width: 124px;
-    height: 40px;
+    height: 28px;
     margin-top: 18px;
     margin-left: 17px;
     font-size: 25px;
     font-weight: 500;
     font-family: "Van Helsing";
+    cursor: pointer;
 }
 
 .foto_perfil{
@@ -254,4 +240,28 @@ opacity: 1;
     background: url('../Imagens/corvo_perfil.jpg');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+
+/* Terminando o menu */
+
+/* Entrando no corpo do inicio */
+
+.contain_index{
+    position: relative;
+    display: flex;
+    width: 94%;
+    height: 553%;
+    background-color: aqua;
+    margin-top: 15vh;
+    margin-left: 3vw;
+}
+
+.div_intro{
+    position: absolute;
+    width: 680px;
+    height: 211px;
+    margin-top: 30px;
+    margin-left: 315px;
+    background-color: brown;
 }

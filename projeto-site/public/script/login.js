@@ -32,15 +32,15 @@
         return false;
     }
 
-    function aguardar() {
-        btn_entrar.disabled = true;
-        img_aguarde.style.display = 'block';
-        div_erro.style.display = 'none';
-    }
+    // function aguardar() {
+    //     btn_entrar.disabled = true;
+    //     img_aguarde.style.display = 'block';
+    //     div_erro.style.display = 'none';
+    // }
 
-    function finalizar_aguardar(resposta) {
-        btn_entrar.disabled = false;
-        img_aguarde.style.display= 'none';
-        div_erro.style.display = 'block';
-        div_erro.innerHTML = resposta;
-    }
+    // function finalizar_aguardar(resposta) {
+    //     btn_entrar.disabled = false;
+    //     img_aguarde.style.display= 'none';
+    //     div_erro.style.display = 'block';
+    //     div_erro.innerHTML = resposta;
+    // }
