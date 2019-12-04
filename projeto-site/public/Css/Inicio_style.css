@@ -259,9 +259,67 @@ opacity: 1;
 
 .div_intro{
     position: absolute;
-    width: 680px;
+    width: 637px;
     height: 211px;
     margin-top: 30px;
-    margin-left: 315px;
+    margin-left: 321px;
     background-color: brown;
+}
+
+.div_intro h3{
+    font-family: "Van Helsing";
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.div_intro p{
+    font-family: "Carrois Gothic SC";
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.div_conte_perso{
+    position: absolute;
+    width: 606px;
+    height: 286px;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin-top: 220px;
+    margin-left: 9px;
+    background-color: darkcyan;
+}
+
+.img_conte_perso{
+    float: left;
+    width: 599px;
+    height: 230px;
+    background: url("../Imagens/Corvo_Concept_Sheet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div_conte_hab{
+    position: absolute;
+    width: 606px;
+    height: 286px;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin-top: 220px;
+    margin-left: 647px;
+    background-color: darkcyan;
+}
+
+.img_conte_hab{
+    float: left;
+    width: 599px;
+    height: 230px;
+    background: url("https://comicvine1.cbsistatic.com/uploads/original/11123/111235159/5404052-ok3nxsg%20-%20imgur.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
