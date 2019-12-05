@@ -13,7 +13,7 @@
                 resposta.json().then(json => {
 
                     sessionStorage.login_usuario_meuapp = json.NomeUser;
-                    sessionStorage.nome_usuario_meuapp = json.NomeUser;
+                    sessionStorage.nome_usuario_meuapp = json.Senha;
                     
                     window.location.href = './index.html';
                 });
@@ -44,3 +44,4 @@
     //     div_erro.style.display = 'block';
     //     div_erro.innerHTML = resposta;
     // }
+  

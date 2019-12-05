@@ -193,7 +193,7 @@ opacity: 1;
     margin-top:16px;
 }
 .login{
-    display: none;
+    /* display: none; */
     position: absolute;
     color:  #0c102b;
     margin-left: 22px;
@@ -201,6 +201,7 @@ opacity: 1;
     font-size: 25px;
     font-weight: 500;
     font-family: "Van Helsing";
+    cursor: pointer;
 }
 
 .div_p_log{
@@ -212,34 +213,67 @@ opacity: 1;
     /* background-color: crimson; */
 }
 .div_perfil{
-    position: absolute;
     display: flex;
+    float: right;
 }
 
 .nome_user{
     /* display: none; */
-    position: absolute;
     color: #0c102b;
-    width: 124px;
-    height: 28px;
-    margin-top: 18px;
-    margin-left: 17px;
+    float: left;
+    margin-top: 17px;
+    margin-right: 10px;
     font-size: 25px;
     font-weight: 500;
     font-family: "Van Helsing";
     cursor: pointer;
 }
 
-.foto_perfil{
-    float: right;
+.dropdown_sair{
+  position: absolute;
+  margin-left: -9px;
+  margin-top: -14px;
+  background-color: rgba(55, 64, 61, 0.3);
+  cursor: pointer;
+  min-width: 50px;
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+  padding: 0px 9px;
+}
+
+.dropdown_sair p{
+    text-decoration: none;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 21px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    width: 60px;
+    height: 22px;
+    color: #1d1f1a;
+    border-bottom: 2px;
+    border-radius: 8px;
+    border-bottom-style: solid;
+}
+.dropdown_sair p:hover{
+    background-color: #8c9ddede;
+    transition: 900ms;
+}
+
+/*.foto_perfil{
     width: 50px;
     height: 50px;
     margin-right: -27px;
-    margin-top: -15px;
+    margin-top: -42px;
     border-radius: 50%;
-    background: url('../Imagens/corvo_perfil.jpg');
+    background: url("../Imagens/corvo_perfil.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+}*/
+.foto_user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 
@@ -250,11 +284,12 @@ opacity: 1;
 .contain_index{
     position: relative;
     display: flex;
-    width: 94%;
-    height: 553%;
-    background-color: aqua;
+    width: 94.06%;
+    height: 85%;
+    background-color: rgba(162, 167, 173, 0.4);
     margin-top: 15vh;
     margin-left: 3vw;
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.64), 0 3px 11px 0 rgba(0, 0, 0, 0.22);
 }
 
 .div_intro{
@@ -263,7 +298,7 @@ opacity: 1;
     height: 211px;
     margin-top: 30px;
     margin-left: 321px;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .div_intro h3{
@@ -290,15 +325,25 @@ opacity: 1;
     height: 286px;
     padding-left: 8px;
     padding-top: 5px;
-    margin-top: 220px;
+    margin-top: 140px;
     margin-left: 9px;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
+}
+
+.div_conte_perso p{
+    font-family: "Van Helsing";
+    font-size: 27px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 308px;
+    cursor: pointer;
 }
 
 .img_conte_perso{
     float: left;
     width: 599px;
-    height: 230px;
+    height: 300px;
+    border-radius: 6px;
     background: url("../Imagens/Corvo_Concept_Sheet.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,15 +355,25 @@ opacity: 1;
     height: 286px;
     padding-left: 8px;
     padding-top: 5px;
-    margin-top: 220px;
+    margin-top: 140px;
     margin-left: 647px;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
+}
+
+.div_conte_hab p{
+    font-family: "Van Helsing";
+    font-size: 27px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 310px;
+    cursor: pointer;
 }
 
 .img_conte_hab{
     float: left;
     width: 599px;
-    height: 230px;
+    height: 300px;
+    border-radius: 6px;
     background: url("https://comicvine1.cbsistatic.com/uploads/original/11123/111235159/5404052-ok3nxsg%20-%20imgur.gif");
     background-repeat: no-repeat;
     background-size: cover;

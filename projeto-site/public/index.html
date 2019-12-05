@@ -49,16 +49,28 @@
                   <p>Todos os Locais</p>
               </div>
             </a>
-            <div class="div_p_log">
-              <div class="div_perfil">
-               <span class="nome_user">Nome user
+          <div class="div_p_log" >
+              <!--<div class="div_perfil" id="div_n_user">
+
+               <span id="span_n_user" class="nome_user">Nome user</span>
+
                <div class="foto_perfil"></div>
-               </span>
+
+              </div>-->
+              <div class="div_perfil" id="div_n_user">
+                  <span id="span_n_user" class="nome_user" onclick="opçoes()">Nome user</span> 
+                  <img class='foto_user' src="Imagens/corvo_perfil.jpg" alt="">
+
+                  <div class="dropdown_sair" id="drop_perfil">
+                    <p onclick="sair()">Sair</p>
+                  </div>
               </div>
-               <div class="entrar">                     
-                 <a class="login" href="Login.html">Login / Cadastrar</a>                   
+
+
+               <div class="entrar" id="login_1">                     
+                 <a class="login" onclick="teste('login.html')">Login / Cadastrar</a>                   
                </div> 
-            </div>
+          </div>
          </ul>
     </nav> 
 </div>
@@ -74,15 +86,16 @@
 
    <div class="div_conte_perso">
      <div class="img_conte_perso"></div>
-     <a href="#">Conheça os personagens</a>
+     <p onclick="teste('corvo_attano.html')" >Conheça os personagens</p>
    </div>
 
    <div class="div_conte_hab">
      <div class="img_conte_hab"></div>
-     <a href="#">Veja as habilidades</a>
+     <p onclick="teste('corvo_attano.html')">Veja as habilidades</p>
    </div>
 </div>
     
 </body>
 </html>
 <script src="script/menu_function.js"></script>
+<script src="script/sair.js"></script>

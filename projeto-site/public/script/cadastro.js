@@ -9,7 +9,7 @@ function cadastrar() {
         
         if (response.ok) {
 
-            window.location.href='Login.html';
+            window.location.href='login.html';
 
         } else {
 
