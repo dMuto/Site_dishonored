@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="Pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Equipamentos</title>
+    <link rel="stylesheet" href="Css/menu_style.css">
+    <link rel="stylesheet" href="Css/body_inicio.css">
+    <link rel="stylesheet" href="Css/equipamento_body.css">
+    <link rel="stylesheet" href="Css/equipamentos_itens_style.css">
+</head>
+
+<body class="body_equipamento">
+    <div class="div_menu">
+        <nav class="menu">
+            <a class="Icone" onclick="teste('index.html')"></a>
+            <ul class="menu_itens">
+                <a class="personagens">Personagens
+                    <div class="dropdown">
+                        <p onclick="teste('corvo_attano.html')">Corvo Attano</p>
+                        <p onclick="teste('#')">Daud</p>
+                        <p>The Outsider</p>
+                        <p>Emily Kaldwin</p>
+                        <P>Todos Personagens</P>
+                    </div>
+                </a>
+                <a class="h_e" href="">Habilidades
+                    <div class="dropdown">
+                        <p>Naturais</p>
+                        <p>Sobrenaturais</p>
+                        <p>Equipamentos</p>
+                        <p>Tecnologias</p>
+                    </div>
+                </a>
+                <a class="dunwall" href="">Dunwall</a>
+                <a class="inimigo" href="">Inimigos
+                    <div class="dropdown">
+                        <p>Alvos</p>
+                        <p>Guangues</p>
+                        <p>Assassinos</p>
+                        <p>Guardas da Cidade</p>
+                        <p>Todos os Inimigos</p>
+                    </div>
+                </a>
+                <a class="local">Locais
+                    <div class="dropdown">
+                        <p>Edifícios</p>
+                        <p>Empresas</p>
+                        <p>Distritos</p>
+                        <p>Nações</p>
+                        <p>Todos os Locais</p>
+                    </div>
+                </a>
+                <div class="div_p_log">
+                    <!--<div class="div_perfil" id="div_n_user">
+    
+                   <span id="span_n_user" class="nome_user">Nome user</span>
+    
+                   <div class="foto_perfil"></div>
+    
+                  </div>-->
+                    <div class="div_perfil" id="div_n_user">
+                        <span id="span_n_user" class="nome_user" onclick="opçoes()">Nome user</span>
+                        <img class='foto_user' src="Imagens/corvo_perfil.jpg" alt="">
+
+                        <div class="dropdown_sair" id="drop_perfil">
+                            <p onclick="sair()">Sair</p>
+                        </div>
+                    </div>
+
+
+                    <div class="entrar" id="login_1">
+                        <a class="login" onclick="teste('login.html')">Login / Cadastrar</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="contain">
+        <div class="intro_equip">
+            <h3>Equipamentos</h3>
+            <p>Há muitos equipamentos e armas usada por corvo em sua busca por vingança
+                vejá elas aqui
+            </p>
+        </div>
+
+
+        <div class="div_lam_d">
+            <h3>Lâmina Dobrável</h3>
+
+            <div class="lam_img"></div>
+        </div>
+
+
+        <div class="div_mask">
+            <h3>Mascara de Corvo</h3>
+
+            <div class="mask_img"></div>
+        </div>
+
+
+        <div class="div_core">
+            <h3>O coração</h3>
+
+            <div class="core_img"></div>
+        </div>
+
+        <div class="div_osso">
+            <h3>Encantos de ossos</h3>
+
+            <div class="osso_img"></div>
+        </div>
+
+        <div class="div_rune">
+            <h3>Runas</h3>
+
+            <div class="rune_img"></div>
+        </div>
+
+        <div class="div_proj">
+            <h3>Projetos</h3>
+
+            <div class="proj_img"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="script/menu_function.js"></script>
+<script src="script/sair.js"></script>

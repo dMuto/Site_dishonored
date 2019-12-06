@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko:600,700|Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC&display=swap');
+@font-face{
+    font-family: "Van Helsing";
+    src: url(../Css/Van\ Helsing.ttf)
+}
+
+.contain{
+    position: relative;
+    display: flex;
+    width: 94%;
+    height: 553%;
+    background-color: aqua;
+    margin-top: 15vh;
+    margin-left: 3vw;
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.2), 0 3px 11px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Introdução */
+.intro_equip{
+    position: absolute;
+    width: 637px;
+    height: 211px;
+    margin-top: 30px;
+    margin-left: 321px;
+    background-color: brown;
+}
+
+.intro_equip h3{
+    font-family: "Van Helsing";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.intro_equip p{
+    font-family: "Carrois Gothic SC";
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* FIM DA INTRODUÇÃO */
+
+.div_lam_d{
+    position: absolute;
+    width: 356px;
+    height: 327px;
+    margin-top: 241px;
+    margin-left: 54px;
+    background-color: darkblue;
+}
+
+.div_lam_d h3{
+    font-family: "Carrois Gothic SC";
+    font-size: 17px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lam_img{
+    float: left;
+    width: 256px;
+    height: 256px;
+    margin-left: 50px;
+    background: url("../Imagens/equipamentos/Corvo\'s_Folding_Blade.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px;
+    border-style: solid;
+    border-color: #635837 #b29549;
+}
+
+.div_mask{
+    position: absolute;
+    width: 356px;
+    height: 327px;
+    margin-top: 241px;
+    margin-left: 454px;
+    background-color: darkblue;
+}
+
+.div_mask h3{
+    font-family: "Carrois Gothic SC";
+    font-size: 17px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mask_img{
+    float: left;
+    width: 256px;
+    height: 256px;
+    margin-left: 50px;
+    background: url("../Imagens/equipamentos/Corvo\'s_Mask.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px;
+    border-style: solid;
+    border-color: #635837 #b29549; 
+}
+
+
+.div_core{
+    position: absolute;
+    width: 356px;
+    height: 327px;
+    margin-top: 241px;
+    margin-left: 856px;
+    background-color: darkblue;
+}
+
+.div_core h3{
+    font-family: "Carrois Gothic SC";
+    font-size: 17px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.core_img{
+    float: left;
+    width: 256px;
+    height: 256px;
+    margin: 0 0 0 50px;
+    padding: 0;
+    background: url(../Imagens/equipamentos/The_Heart.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px;
+    border-style: solid;
+    border-color: #635837 #b29549;
+}
+
+
+.div_osso{
+    position: absolute;
+    width: 356px;
+    height: 327px;
+    margin-top: 241px;
+    margin-left: 856px;
+    background-color: darkblue;
+}
+
+.div_osso h3{
+    font-family: "Carrois Gothic SC";
+    font-size: 17px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.osso_img{
+    float: left;
+    width: 256px;
+    height: 256px;
+    margin: 0 0 0 50px;
+    padding: 0;
+    background: url(../Imagens/equipamentos/Bone_charm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px;
+    border-style: solid;
+    border-color: #635837 #b29549;
+}
+
+.div_rune{
+    position: absolute;
+    width: 356px;
+    height: 327px;
+    margin-top: 603px;
+    margin-left: 856px;
+    background-color: darkblue;
+}
+
+.div_rune h3{
+    font-family: "Carrois Gothic SC";
+    font-size: 17px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rune_img{
+    float: left;
+    width: 256px;
+    height: 256px;
+    margin: 0 0 0 50px;
+    padding: 0;
+    background: url(../Imagens/equipamentos/Rune.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px;
+    border-style: solid;
+    border-color: #635837 #b29549;
+}
