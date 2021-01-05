@@ -10,6 +10,6 @@ DataNasc date
 ) auto_increment = 105;
 
 insert into usuario values 
-(null, 'Well', 'Wellynton.ds@outlook.com','Guilhotina','2001-06-28');
+(null, 'Well', 'Well.dis.sss@kfkkdk.com','jfjfjfj','2001-06-28');
 
 
